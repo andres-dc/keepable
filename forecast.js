@@ -1,5 +1,5 @@
 function showForecast() {
-  let forecastContainer = document.getElementById("forecast");
+  let forecastContainer = document.querySelector(".header__weather");
 
   if (!navigator.geolocation) {
     forecastContainer.innerHTML =
